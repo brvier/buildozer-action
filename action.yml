@@ -59,7 +59,9 @@ runs:
           libncursesw5-dev \
           cmake \
           libffi-dev \
-          libssl-dev
+          libssl-dev \
+          libltdl-dev
+          
         export PATH=$PATH:~/.local/bin/
         python3 -m pip install --upgrade \
           Cython==0.29.33 \
